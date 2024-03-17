@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>IT Services</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h2>Contact Our IT Services</h2>
+      <p>We provide a wide range of IT solutions to help your business succeed.</p>
+    </section>
+  </main>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <form>
+          <div class="input-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="input-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>    
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 IT Services. All rights reserved.</p>
+  </footer>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  background-color: #f0f0f0;
+  padding: 50px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 20px #d0d0d0, -10px -10px 20px #ffffff;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.service {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 10px #d0d0d0, inset -5px -5px 10px #ffffff;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color:#333;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+</style>
+
+</body>
+</html>
